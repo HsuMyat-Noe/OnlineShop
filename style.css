@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to bottom right, 
+    rgba(201, 124, 242, 0.5), 
+    rgba(227, 152, 85, 0.5));
+    font-family: "Nunito", sans-serif;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+
+.nav-item .nav-link:hover {
+    color: #da96ff;
+    font-weight: 400;
+}
+
+.mobile-view {
+    background: linear-gradient(to bottom right, 
+    rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)),
+    url(./images/bg2.jpg);
+}
+
+.btn-search,.btn-order,.btn-send {
+    border: 1px solid #fff;
+    background-color: #da96ff;
+    color: #fff;
+    transition: .5s ease-in;
+}
+
+.btn-search:hover,.btn-order:hover,.btn-send:hover {
+    border: 1px solid #da96ff;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn-order:hover{
+    color: #da96ff;
+}
+
+.input-search {
+    color: #da96ff;
+    background-color: transparent;
+    border: 1px solid #da96ff;
+}
+
+.input-search::placeholder {
+    color: #fff;
+}
+
+.input-search:focus {
+    background-color: transparent;
+    color: #fff;
+}
